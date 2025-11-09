@@ -1,0 +1,119 @@
+.termos-page {
+  min-height: 100vh;
+  background-color: #01111B;
+  color: #fff;
+  padding: 20px;
+}
+
+.termos-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.header-logo img {
+  height: 40px;
+}
+
+.termos-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  padding: 30px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.termos-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #17daac;
+  font-size: 2rem;
+}
+
+.termos-content {
+  line-height: 1.6;
+}
+
+.termos-section {
+  margin-bottom: 30px;
+}
+
+.termos-section h2 {
+  color: #64ffda;
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 10px;
+}
+
+.termos-section h3 {
+  color: #17daac;
+  margin: 15px 0 10px 0;
+  font-size: 1.2rem;
+}
+
+.termos-section p {
+  margin-bottom: 15px;
+  color: #cad1d6;
+}
+
+.termos-section ul {
+  margin: 10px 0 15px 20px;
+}
+
+.termos-section li {
+  margin-bottom: 8px;
+  color: #cad1d6;
+}
+
+@media (max-width: 480px) {
+  .termos-page {
+    padding: 15px;
+  }
+  
+  .termos-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+  
+  .header-logo {
+    align-self: center;
+  }
+  
+  .termos-container {
+    padding: 20px;
+  }
+  
+  .termos-container h1 {
+    font-size: 1.5rem;
+  }
+  
+  .termos-section h2 {
+    font-size: 1.3rem;
+  }
+  
+  .termos-section h3 {
+    font-size: 1.1rem;
+  }
+}
